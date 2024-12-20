@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Blog</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar">
+      <h1>My Blog</h1>
+      <div class="search-bar">
+        <input type="text" id="search" placeholder="Search...">
+      </div>
+      <div class="categories">
+        <select id="categoryFilter">
+          <option value="all">All Categories</option>
+          <option value="tech">Tech</option>
+          <option value="lifestyle">Lifestyle</option>
+        </select>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <section class="blog-list" id="blogList">
+      <!-- Blog posts dynamically inserted here -->
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2024 My Blog</p>
+  </footer>
+  <script src="scripts.js"></script>
+</body>
+</html>
